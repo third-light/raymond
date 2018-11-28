@@ -253,7 +253,7 @@ var basicTests = []Test{
 		"{{awesome}}",
 		map[string]string{"awesome": "&\"'`\\<>"},
 		nil, nil, nil,
-		"&amp;&quot;&apos;`\\&lt;&gt;",
+		"&amp;&quot;&#39;`\\&lt;&gt;",
 	},
 	{
 		"escaping expressions (9)",
